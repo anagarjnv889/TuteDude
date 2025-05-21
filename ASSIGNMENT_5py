@@ -1,0 +1,16 @@
+#Task 1: Create a Dictionary of Student Marks
+
+d={'Ajay':95, 'Paras':100}
+a=input("Enter the student's name: ")
+if a in d:
+    print(a,'s marks:',d[a])
+else:
+    print("Student not found")
+
+# Task 2: Demonstrate List Slicing 
+l=[i for i in range(1,11)]
+print("Original list:",l)
+l=l[0:5]
+print("Extracted first five elements:",l)
+l.reverse()
+print("Reversed Extracted  elements:",l)
